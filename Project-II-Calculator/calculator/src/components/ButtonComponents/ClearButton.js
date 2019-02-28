@@ -3,7 +3,7 @@ import './Button.css';
 
 import GenericButton from "./GenericButton";
 
-const ClearButton = props => (
+const ClearButton = () => (
   <GenericButton buttonStyle="clear-button" text="clear" />
 );
   
