@@ -8,10 +8,10 @@ import Operators from './components/GroupComponents/Operators';
 
 const App = () => (
   <div className="container">
-    <CalculatorDisplay text="0"/>
+    <CalculatorDisplay text="0" />
     <div class="input">
       <div className="clear-numpad">
-        <ClearButton/>
+        <ClearButton />
         <Numpad />
       </div>
       <Operators />
