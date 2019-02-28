@@ -1,11 +1,11 @@
 import React from 'react';
 import './Header.css';
 
-function HeaderTitle() {
+function HeaderBody() {
   return (
     <>
     </>
   );
 };
   
-export default HeaderTitle;
+export default HeaderBody;
