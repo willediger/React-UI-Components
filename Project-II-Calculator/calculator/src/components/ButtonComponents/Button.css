@@ -1,0 +1,35 @@
+button {
+  border: 1px solid #979797;
+  height: 94px;
+  cursor: pointer;
+  font-size: 5rem;
+  outline: none;
+}
+
+.operator-button {
+  background: #A0001E;
+  color: white;
+  width: 120px;
+}
+
+.number-button {
+  background: white;
+  color: #222222;
+  width: 112px;
+}
+
+.clear-button {
+  background: white;
+  color: #222222;
+  font-weight: 300;
+  font-size: 4.5rem;
+}
+
+
+.clear-button, .zero-button {
+  width: 334px;
+}
+
+.first-column {
+  width: 110px;
+}
