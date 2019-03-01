@@ -6,14 +6,14 @@ import NumberButton from '../ButtonComponents/NumberButton';
 const Numpad = () => (
   <div className="numpad">
     <NumberButton buttonStyle='first-column' text="7" />
-    <NumberButton buttonStyle='' text="8" />
-    <NumberButton buttonStyle='' text="9" />
+    <NumberButton text="8" />
+    <NumberButton text="9" />
     <NumberButton buttonStyle='first-column' text="4" />
-    <NumberButton buttonStyle='' text="5" />
-    <NumberButton buttonStyle='' text="6" />
+    <NumberButton text="5" />
+    <NumberButton text="6" />
     <NumberButton buttonStyle='first-column' text="1" />
-    <NumberButton buttonStyle='' text="2" />
-    <NumberButton buttonStyle='' text="3" />
+    <NumberButton text="2" />
+    <NumberButton text="3" />
     <NumberButton buttonStyle='zero-button' text="0" />
   </div>
 );
