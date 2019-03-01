@@ -57,6 +57,8 @@ const Numpad = () => (
   <div className="numpad">
     {numbers.map(n => (
       // number button is having a buttonstyle set if that property is present on the current 'n' in 'numbers', and the key and text are set always. all number buttons default to '.number-button' class. the additional class we're sometimes setting here is for the zero button and left-most buttons, which are slightly narrower.
+      // see this stackoverflow answer for more info on the syntax: https://stackoverflow.com/a/35428331
+      // or view the archive.org entry i saved for it: https://web.archive.org/web/20190301041432/https://stackoverflow.com/questions/31163693/how-to-conditionally-add-attributes-to-react-components/35428331
       <NumberButton {...(n.buttonStyle ? {buttonStyle: n.buttonStyle} : {})} text={n.number} key={n.order} />
     ))}
   </div>
