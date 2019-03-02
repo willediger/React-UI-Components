@@ -1,2 +1,4 @@
 [build]
   base = "Project-II-Calculator/calculator/"
+  publish = "Project-II-Calculator/calculator/build/"
+  command = "yarn build"
