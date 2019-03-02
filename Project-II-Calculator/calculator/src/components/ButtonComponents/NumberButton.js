@@ -3,12 +3,19 @@ import './Button.css';
 
 import GenericButton from "./GenericButton";
 
-const NumberButton = props => (
-  <GenericButton buttonStyle={`number-button ${props.buttonStyle}`} text={props.text} />
-);
+class NumberButton extends React.Component {
+  constructor(props) {
+    super(props);
+    NumberButton.defaultProps = {
+      buttonStyle: ''
+    }
+  }
 
-NumberButton.defaultProps = {
-  buttonStyle: ''
-}
-  
+  render() {
+    return (
+      <GenericButton buttonStyle={`number-button ${this.props.buttonStyle}`} text={this.props.text} onClick={this.props.onClick} />
+    );
+  }
+} 
+
 export default NumberButton;

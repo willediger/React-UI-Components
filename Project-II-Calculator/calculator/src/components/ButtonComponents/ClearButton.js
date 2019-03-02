@@ -3,8 +3,12 @@ import './Button.css';
 
 import GenericButton from "./GenericButton";
 
-const ClearButton = () => (
-  <GenericButton buttonStyle="clear-button" text="clear" />
-);
+class ClearButton extends React.Component {
+  render() {
+    return (
+      <GenericButton buttonStyle="clear-button" text="clear" onClick={this.props.onClick}/>
+    )
+  }
+};
   
 export default ClearButton;

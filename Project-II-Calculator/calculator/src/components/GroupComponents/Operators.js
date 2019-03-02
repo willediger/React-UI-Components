@@ -3,14 +3,19 @@ import './Group.css';
 
 import OperatorButton from '../ButtonComponents/OperatorButton';
 
-const Operators = () => (
-  <div className="operators">
-    <OperatorButton text="÷" />
-    <OperatorButton text="×" />
-    <OperatorButton text="-" />
-    <OperatorButton text="+" />
-    <OperatorButton text="=" />
-  </div>
-);
+class Operators extends React.Component {
+  render() {
+    return (
+      <div className="operators">
+        <OperatorButton text="÷" operatorValue="/" onClick={this.props.onClick} />
+        <OperatorButton text="×" operatorValue="*" onClick={this.props.onClick} />
+        <OperatorButton text="-" operatorValue="-" onClick={this.props.onClick} />
+        <OperatorButton text="+" operatorValue="+" onClick={this.props.onClick} />
+        <OperatorButton text="=" operatorValue="=" onClick={this.props.eval} />
+      </div>
+    );
+  }
+}
+
 
 export default Operators;

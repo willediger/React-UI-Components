@@ -3,8 +3,12 @@ import './Button.css';
 
 import GenericButton from "./GenericButton";
 
-const OperatorButton = props => (
-  <GenericButton buttonStyle="operator-button" text={props.text} />
-);
+class OperatorButton extends React.Component {
+  render() {
+    return (
+      <GenericButton buttonStyle="operator-button" text={this.props.text} onClick={this.props.onClick} operatorValue={this.props.operatorValue}/>
+    );
+  }
+} 
   
 export default OperatorButton;
