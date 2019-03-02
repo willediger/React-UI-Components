@@ -52,7 +52,7 @@ class Numpad extends React.Component {
       },
       {
         order: 10,
-        number: 1,
+        number: 0,
         buttonStyle: zeroButtonClassName
       }]
     };
