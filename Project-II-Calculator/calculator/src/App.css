@@ -1,0 +1,10 @@
+.container {
+  width: 456px;
+  margin: 0 auto;
+  border: 1px solid #979797;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+}

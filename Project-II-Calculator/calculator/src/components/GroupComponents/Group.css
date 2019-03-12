@@ -1,0 +1,12 @@
+.operators {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+}
+
+.numpad {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 334px;
+}

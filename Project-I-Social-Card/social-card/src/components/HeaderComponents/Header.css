@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.lambda-logo {
+  width: 48px;
+  margin: 8px 6px 0 8px;
+}
+
+.header-content {
+  padding-top: 11px;
+  padding-left: 3px;
+}
+
+.header-title {
+  padding-bottom: 6px;
+}
+
+.header-title-text {
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.header-title-bullet {
+  padding: 0 5px;
+}
+
+.header-title-handle-timestamp {
+  color: #7C8C9B;
+  font-size: 1.2rem;
+}

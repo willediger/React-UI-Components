@@ -1,0 +1,14 @@
+.display {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background: #222222;
+  color: white;
+  width: 454px;
+  height: 126px;
+  border: 1px solid #979797;
+  font-size: 7.15rem;
+  font-weight: 300;
+  padding-bottom: 21px;
+  padding-right: 13px;
+}
